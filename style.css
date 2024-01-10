@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300&family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+}
+/* background */
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./image/bg-pattern-top.svg), url(./image/bg-pattern-bottom.svg);
+  background-position: bottom 45vh right 45vw, top 45vh left 45vw;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #19a1ad;
+}
+.card {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* coverimage */
+.coverimage {
+  border-radius: 10px 10px 0px 0px;
+}
+/* profilepicture */
+.profilebox {
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.profile-picture {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+/* main content */
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+.name {
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+.age {
+  color: gray;
+  font-weight: lighter;
+}
+p {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+  font-weight: lighter;
+}
+/* instainfo */
+.insta-info {
+  border-top: 1px solid rgb(161, 153, 153);
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+h6 {
+  font-size: 9px;
+  font-weight: lighter;
+  color: rgba(143, 139, 139, 0.988);
+  letter-spacing: 1.5px;
+  padding-top: 4px;
+}
